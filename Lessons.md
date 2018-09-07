@@ -38,3 +38,20 @@ with URL:
 
 if we pan, we need to do `navigation` through either Redux router or React router 
 AND we need to update the `state.map.lat` and `state.map.lng`.
+
+
+## Alternatives
+
+## option 1
+
+Seems like better fit:
+https://github.com/FormidableLabs/redux-little-router
+
+Though no development in 4 months.
+
+## option 2
+This will allow query params to be linked to state directly.
+https://github.com/Treora/redux-query-sync
+
+No development in a year, and one developer contributing.
+
