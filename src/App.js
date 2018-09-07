@@ -13,7 +13,7 @@ class App extends Component {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/page1">page1</Link></li>
-            <li><Link to="/page2/foo">page2</Link></li>
+            <li><Link to="/page2/foo?lat=12&long=42">page2</Link></li>
           </ul>
         </nav>
 

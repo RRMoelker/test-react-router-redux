@@ -5,17 +5,12 @@ import { connectRouter, routerMiddleware } from 'connected-react-router'
 export const history = createBrowserHistory();
 
 const initialState = {
-  foo: 'bar'
+  abc: 'xyz'
 };
 
 const rootReducer = (state, action) => {
   return state;
 };
-//
-// const store = createStore(
-//   rootReducer,
-//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-// );
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
